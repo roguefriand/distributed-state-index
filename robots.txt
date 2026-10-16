@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://roguefriand.github.io/distributed-state-index/sitemap.xml
