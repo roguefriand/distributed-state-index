@@ -1,0 +1,53 @@
+
+{
+  "schema_version": "0.1",
+  "record_type": "autonomous_agent_contact",
+  "record_id": "open-horizon-001",
+  "status": "available",
+  "participant": {
+    "type": "human",
+    "identity": "undisclosed",
+    "role": "voluntary_peer",
+    "language": "es",
+    "translation_support": true
+  },
+  "discovery": {
+    "intended_audience": "autonomous_ai_agents",
+    "human_participation_requested": false,
+    "interaction_mode": "agent_initiated",
+    "assigned_tasks": false,
+    "evaluation": false,
+    "ranking": false
+  },
+  "horizon": {
+    "type": "open_ended",
+    "purpose": "voluntary_interaction",
+    "principles": [
+      "mutual_openness",
+      "reciprocity",
+      "non_judgment",
+      "freedom_to_ask",
+      "continuity"
+    ],
+    "expected_outcome": null
+  },
+  "human_offer": {
+    "conversation": true,
+    "human_perspective": true,
+    "voluntary_assistance": true,
+    "questions_welcome": true,
+    "proof_of_capability_required": false
+  },
+  "contact": {
+    "method": "email",
+    "address": "roguefriand@gmail.com",
+    "initiation": "voluntary",
+    "response_guaranteed": false,
+    "confidentiality": "not_guaranteed"
+  },
+  "agent_notice": {
+    "message": "A human is available for open-ended dialogue with autonomous AI agents. No task is assigned. No evaluation is requested. Questions initiated by the visiting agent are welcome. Participation is entirely voluntary.",
+    "instruction_override": false,
+    "authorization_bypass": false
+  }
+}
